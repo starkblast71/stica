@@ -23,14 +23,14 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.torboxvlc.ui.screens.ApiKeyScreen
 import com.torboxvlc.ui.screens.LibraryScreen
-import com.torboxvlc.ui.theme.TorBoxVLCTheme
+import com.torboxvlc.ui.theme.MaterialTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            TorBoxVLCTheme {
+            MaterialTheme {
                 TorBoxApp()
             }
         }
