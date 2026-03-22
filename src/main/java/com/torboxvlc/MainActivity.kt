@@ -1,5 +1,6 @@
 package com.torboxvlc
 
+import androidx.compose.material3.MaterialTheme
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -23,7 +24,7 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.torboxvlc.ui.screens.ApiKeyScreen
 import com.torboxvlc.ui.screens.LibraryScreen
-import com.torboxvlc.ui.theme.MaterialTheme
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
